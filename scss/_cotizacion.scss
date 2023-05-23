@@ -1,0 +1,66 @@
+/* PAG 4 COTIZACIÓN */
+
+.formularios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: $espacio-grande;
+    padding-right: $espacio-grande;
+  
+  }
+  
+  .form-izquierda {
+    width: 40%;
+  }
+  
+  .form-derecha {
+    width: 40%;
+  }
+  
+  .trabaja-con-nosotros {
+  padding-left: 400px; 
+  padding-top: $espacio-grande;
+  }
+  
+  /* RESPONSIVE TABLET */
+  /* PAG 4 COTIZACIÓN */
+  @media (max-width: $tablet){
+    .trabaja-con-nosotros {
+    padding-left: 180px; 
+    padding-top: $espacio-grande;
+    padding-bottom: $espacio-grande;
+    }
+  }
+  
+  @media (max-width: $mobile){
+    .trabaja-con-nosotros {
+    padding-left: 80px; 
+    padding-top: $espacio-chicomedio;
+    padding-bottom: $espacio-chicomedio;
+    height: 100px;
+    }
+  
+  .formularios {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+  } 
+  
+  .form-izquierda {
+    width: 80%;
+    padding-top: 30px;
+  
+  }
+  
+  .form-derecha {
+    width: 80%;
+    padding-top: 30px;
+  }
+  
+  .formularios h1 {
+    font-size: $fuente-media;
+  } 
+  }
